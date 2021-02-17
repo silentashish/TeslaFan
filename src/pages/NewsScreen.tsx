@@ -24,7 +24,7 @@ const NewsScreen: React.FC<props> = () => {
 
   return (
     <View style={styles.container}>
-      <Header>Gamestop News</Header>
+      <Header>Tesla News</Header>
       <FlatList
         data={stringData.newsData}
         renderItem={renderItem}

@@ -19,25 +19,24 @@ const VideoScreen: React.FC<props> = () => {
   const datas = [
     {
       link: 'https://www.youtube.com/watch?v=Bya-t5yhwa0',
-      title: 'The Gamestop Stock Situation',
+      title: 'The Tesla Stock Situation',
     },
     {
       link: 'https://www.youtube.com/watch?v=_6siiSzDMoI',
-      title: 'GameStop share trading explained - BBC News',
+      title: 'Tesla share trading explained - BBC News',
     },
     {
       link: 'https://www.youtube.com/watch?v=hNgjDdFgwM0',
-      title: 'GameStop: Did investors win or lose? - BBC News',
+      title: 'Tesla: Did investors win or lose? - BBC News',
     },
     {
-      title:
-        'GameStop: what it reveals about the US stockmarket | The Economist',
+      title: 'Tesla: what it reveals about the US stockmarket | The Economist',
       link: 'https://www.youtube.com/watch?v=CBy3gNrF7YA&t=5s',
     },
   ];
   return (
     <View style={styles.container}>
-      <Header>Gamestop Videos</Header>
+      <Header>Tesla Videos</Header>
       <ScrollView>
         {datas.map((item) => (
           <View style={styles.gridContainer}>

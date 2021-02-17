@@ -20,7 +20,7 @@ interface props {
 const InfoScreen: React.FC<props> = () => {
   return (
     <View style={styles.container}>
-      <Header>About Gamestop</Header>
+      <Header>About Tesla</Header>
       <ScrollView>
         <Divider large />
         <View style={styles.imageWraper}>
