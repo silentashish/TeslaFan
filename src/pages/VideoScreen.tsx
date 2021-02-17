@@ -18,20 +18,24 @@ interface props {
 const VideoScreen: React.FC<props> = () => {
   const datas = [
     {
-      link: 'https://www.youtube.com/watch?v=Bya-t5yhwa0',
-      title: 'The Tesla Stock Situation',
+      link: 'https://www.youtube.com/watch?v=eEaHNpuULtU',
+      title: 'Tesla Model 3: One Year Later',
     },
     {
-      link: 'https://www.youtube.com/watch?v=_6siiSzDMoI',
-      title: 'Tesla share trading explained - BBC News',
+      link: 'https://www.youtube.com/watch?v=m7atGkba-Z8',
+      title: 'Tesla Cybertruck event in 5 minutes',
     },
     {
-      link: 'https://www.youtube.com/watch?v=hNgjDdFgwM0',
-      title: 'Tesla: Did investors win or lose? - BBC News',
+      link: 'https://www.youtube.com/watch?v=DG9ezAuSn4c',
+      title: 'Is the Tesla CyberTruck Worth it?! - A Truck Owners Thoughts',
     },
     {
-      title: 'Tesla: what it reveals about the US stockmarket | The Economist',
-      link: 'https://www.youtube.com/watch?v=CBy3gNrF7YA&t=5s',
+      title: 'Why I Ordered a Tesla CyberTruck!',
+      link: 'https://www.youtube.com/watch?v=OX1xG0a4TVo',
+    },
+    {
+      title: 'Discover: Scheduled Departure',
+      link: 'https://www.youtube.com/watch?v=UjenHNz-MRI',
     },
   ];
   return (
